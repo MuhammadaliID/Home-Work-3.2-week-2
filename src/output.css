@@ -9,6 +9,7 @@
       "Courier New", monospace;
     --spacing: 0.25rem;
     --font-weight-bold: 700;
+    --font-weight-black: 900;
     --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -262,6 +263,9 @@
   .w-\[300px\] {
     width: 300px;
   }
+  .w-\[350px\] {
+    width: 350px;
+  }
   .w-\[400px\] {
     width: 400px;
   }
@@ -307,8 +311,14 @@
   .gap-\[50px\] {
     gap: 50px;
   }
+  .gap-\[60px\] {
+    gap: 60px;
+  }
   .gap-\[70px\] {
     gap: 70px;
+  }
+  .gap-\[80px\] {
+    gap: 80px;
   }
   .gap-\[100px\] {
     gap: 100px;
@@ -321,6 +331,9 @@
   }
   .gap-y-\[10px\] {
     row-gap: 10px;
+  }
+  .gap-y-\[15p\] {
+    row-gap: 15p;
   }
   .gap-y-\[15px\] {
     row-gap: 15px;
@@ -342,6 +355,9 @@
   }
   .rounded-\[20px\] {
     border-radius: 20px;
+  }
+  .rounded-\[30px\] {
+    border-radius: 30px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -422,6 +438,15 @@
   .p-\[20px\] {
     padding: 20px;
   }
+  .p-\[30px\] {
+    padding: 30px;
+  }
+  .p-\[40px\] {
+    padding: 40px;
+  }
+  .p-\[50px\] {
+    padding: 50px;
+  }
   .pt-\[20px\] {
     padding-top: 20px;
   }
@@ -445,6 +470,10 @@
   }
   .text-\[55px\] {
     font-size: 55px;
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
