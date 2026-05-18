@@ -385,6 +385,9 @@
   .gap-\[200px\] {
     gap: 200px;
   }
+  .gap-y-\[1\] {
+    row-gap: 1;
+  }
   .gap-y-\[10px\] {
     row-gap: 10px;
   }
@@ -584,6 +587,12 @@
   }
   .text-\[\#38BFF2\] {
     color: #38BFF2;
+  }
+  .text-\[a\] {
+    color: a;
+  }
+  .text-\[aqua\] {
+    color: aqua;
   }
   .text-\[c\] {
     color: c;
